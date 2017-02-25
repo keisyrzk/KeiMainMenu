@@ -14,7 +14,7 @@ class MainMenu: KeiMainMenu {}
 ```
 MainMenu.shared.MainMenuCtrl = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainMenu")
 ```
-- now you can show you menu with calling a function like so
+- now you can show your menu with calling a function like so
 ```
 MainMenu.shared.show(parentCtrl: your_parent_ctrl, menuWidth: nil)
 ```
